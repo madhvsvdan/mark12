@@ -1,62 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css" />
     <script defer src="app.js"></script>
     <title>Guess Third Angle</title>
-  </head>
-  <body>
-    <div class="equalMargin">
-      <h1>Guess Third Angle</h1>
-      <h2 class="info">
-        Guess the third angle in the input box below, to check if it forms a
-        valid triangle with the given two angles.
-      </h2>
-      <form method="POST">
-        <input
-          type="number"
-          class="angleOne"
-          id="angleOne"
-          name="angleOne"
-          min="0.0001"
-          step="0.00001"
-          max="180"
-          required=""
-          placeholder="First Angle"
-          readonly=""
-          value=""
-        /><input
-          type="number"
-          class="angleTwo"
-          id="angleTwo"
-          name="angleTwo"
-          min="0.0001"
-          step="0.00001"
-          max="180"
-          required=""
-          placeholder="Second Angle"
-          readonly=""
-          value=""
-        /><input type="submit" class="btn-generate" value="Generate Angles" />
-        <div class="third-angle-submit">
-          <input
-            type="number"
-            class="angleThreeGuess"
-            id="angleThreeGuess"
-            name="angleThreeGuess"
-            min="0.01"
-            step="0.01"
-            max="180"
-            required=""
-            placeholder="Guess Third Angle"
-            value=""
-          /><input type="submit" class="check" value="Check Guess" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="equalMargin">
+            <h1>Guess Third Angle</h1>
+            <h2 class="info">
+                Guess the third angle in the input box below, to check if it forms a
+                valid triangle with the given two angles.
+            </h2>
+            <form method="POST">
+                <input type="number" class="angleOne" id="angleOne" name="angleOne" min="0.0001" step="0.00001"
+                    max="180" required="" placeholder="First Angle" readonly="" value="" /><input type="number"
+                    class="angleTwo" id="angleTwo" name="angleTwo" min="0.0001" step="0.00001" max="180" required=""
+                    placeholder="Second Angle" readonly="" value="" /><input type="submit" class="btn-generate"
+                    value="Generate Angles" />
+                <div class="third-angle-submit">
+                    <input type="number" class="angleThreeGuess" id="angleThreeGuess" name="angleThreeGuess" min="0.01"
+                        step="0.01" max="180" required="" placeholder="Guess Third Angle" value="" /><input
+                        type="submit" class="check" value="Check Guess" />
+                </div>
+            </form>
+            <div class="output"></div>
         </div>
-      </form>
-      <div class="output"></div>
+        <!-- =============== Footer Section =============== -->
+        <footer class="footer">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="https://github.com/madhvsvdan">GitHub</a></li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/madhvsvdan/">LinkedIn</a>
+                    </li>
+                    <li><a href="https://twitter.com/madhvsvdan">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
