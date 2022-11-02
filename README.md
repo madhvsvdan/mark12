@@ -4,6 +4,8 @@
 
 <hr/>
 
+![Screenshot](https://github.com/madhvsvdan/mark12/blob/main/12.png?raw=true)
+
 [Live demo of the app](https://ngc-mark12.netlify.app/)
 
 <hr/>
