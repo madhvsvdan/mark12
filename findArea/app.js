@@ -6,6 +6,10 @@ const output = document.querySelector('.output');
 
 findArea.addEventListener('click', (e) => {
   e.preventDefault();
-  const area = 0.5 * base.value * height.value;
-  output.innerHTML = `The area of the triangle is ${area.toFixed(2)}`;
+  if (height.value > 0 && base.value > 0) {
+    const area = 0.5 * base.value * height.value;
+    output.innerHTML = `The area of the triangle is ${area.toFixed(2)}`;
+  } else {
+    output.innerHTML = `<p>The values entered must be positive.`;
+  }
 });

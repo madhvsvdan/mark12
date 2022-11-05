@@ -12,5 +12,7 @@ check.addEventListener('click', (e) => {
     output.innerHTML = `<h3>The length of hypotenuse is ${hypotenuse.toFixed(
       2
     )}</h3>`;
+  } else {
+    output.innerHTML = `<p>The values entered must be positive.`;
   }
 });
