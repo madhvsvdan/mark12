@@ -1,56 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css" />
     <script defer src="app.js"></script>
     <title>Triangle Quiz</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main">
-        <div class="logo">
-            <a href="../index.html" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/home-icon.png" alt="Home">
-            </a>
-        </div>
-        <div class="container tQuiz">
-            <h1>Triangle Quiz</h1>
-            <form class="quiz-form">
-                <div class="question-container">
-                    <p>
-                        A triangle sides with length: 35, 46 and 44. What kind of a triangle
-                        is this?
-                    </p>
-                    <label><input type="radio" name="question1" id=""
-                            value="Equilateral" />Equilateral</label><label><input type="radio" name="question1" id=""
-                            value="Isosceles" />Isosceles</label><label><input type="radio" name="question1" id=""
-                            value="Scalene" />Scalene</label>
-                </div>
-                <div class="question-container">
-                    <p>
-                        A triangle has angles: 45, 45 and 90. Is this a right angled
-                        triangle?
-                    </p>
-                    <label><input type="radio" name="question2" id="" value="Yes" />Yes</label><label><input
-                            type="radio" name="question2" id="" value="No" />No</label>
-                </div>
-                <div class="question-container">
-                    <p>
-                        A triangle has angles : 60, 60, 60. Is it an equilateral triangle?
-                    </p>
-                    <label><input type="radio" name="question3" id="" value="Yes" />Yes</label><label><input
-                            type="radio" name="question3" id="" value="No" />No</label>
-                </div>
-            </form>
-            <button id="submit">Submit</button>
-            <div class="output"></div>
-        </div>
-        <!-- =============== Footer Section =============== -->
-        <footer class="footer">
+      <div class="logo">
+        <a href="../index.html" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/home-icon.png" alt="Home" />
+        </a>
+      </div>
+      <div class="container tQuiz">
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+          <div class="question-container">
+            <p>
+              A triangle sides with length: 35, 46 and 44. What kind of a
+              triangle is this?
+            </p>
+            <label
+              ><input
+                type="radio"
+                name="question1"
+                id=""
+                value="Equilateral"
+              />Equilateral</label
+            ><label
+              ><input
+                type="radio"
+                name="question1"
+                id=""
+                value="Isosceles"
+              />Isosceles</label
+            ><label
+              ><input
+                type="radio"
+                name="question1"
+                id=""
+                value="Scalene"
+              />Scalene</label
+            >
+          </div>
+          <div class="question-container">
+            <p>
+              A triangle has angles: 45, 45 and 90. Is this a right angled
+              triangle?
+            </p>
+            <label
+              ><input
+                type="radio"
+                name="question2"
+                id=""
+                value="Yes"
+              />Yes</label
+            ><label
+              ><input type="radio" name="question2" id="" value="No" />No</label
+            >
+          </div>
+          <div class="question-container">
+            <p>
+              A triangle has angles : 60, 60, 60. Is it an equilateral triangle?
+            </p>
+            <label
+              ><input
+                type="radio"
+                name="question3"
+                id=""
+                value="Yes"
+              />Yes</label
+            ><label
+              ><input type="radio" name="question3" id="" value="No" />No</label
+            >
+          </div>
+          <div class="question-container">
+            <p>All 3 interior angles of a triangle add up to __</p>
+            <label
+              ><input type="radio" name="question4" id="" value="90" />90</label
+            ><label
+              ><input
+                type="radio"
+                name="question4"
+                id=""
+                value="180"
+              />180</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question4"
+                id=""
+                value="360"
+              />360</label
+            >
+          </div>
+          <div class="question-container">
+            <p>What is the longest side of a triangle called?</p>
+            <label
+              ><input
+                type="radio"
+                name="question5"
+                id=""
+                value="Hypotenuse"
+              />Hypotenuse</label
+            ><label
+              ><input
+                type="radio"
+                name="question5"
+                id=""
+                value="Perpendicular"
+              />Perpendicular</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question5"
+                id=""
+                value="Transversal"
+              />Transversal</label
+            >
+          </div>
+        </form>
+        <button id="submit">Submit</button>
+        <div class="output"></div>
+      </div>
+      <!-- =============== Footer Section =============== -->
+      <!-- <footer class="footer">
             <div class="footer-links">
                 <ul>
                     <li><a href="https://github.com/madhvsvdan">GitHub</a></li>
@@ -60,8 +140,7 @@
                     <li><a href="https://twitter.com/madhvsvdan">Twitter</a></li>
                 </ul>
             </div>
-        </footer>
+        </footer> -->
     </div>
-</body>
-
+  </body>
 </html>

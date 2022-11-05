@@ -1,8 +1,8 @@
-const quizForm = document.querySelector(".quiz-form");
-const submit = document.querySelector("#submit");
-const output = document.querySelector(".output");
+const quizForm = document.querySelector('.quiz-form');
+const submit = document.querySelector('#submit');
+const output = document.querySelector('.output');
 
-const correctAnswers = ["Scalene", "Yes", "Yes"];
+const correctAnswers = ['Scalene', 'Yes', 'Yes', '180', 'Hypotenuse'];
 
 function checkAnswers() {
   let score = 0;
@@ -17,4 +17,4 @@ function checkAnswers() {
   output.innerHTML = `<p>You scored ${score} points.</p>`;
 }
 
-submit.addEventListener("click", checkAnswers);
+submit.addEventListener('click', checkAnswers);
